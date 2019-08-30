@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Learning How To Learn"
-date:       2019-08-30 04:49:51 +0000
+date:       2019-08-30 00:49:52 -0400
 permalink:  learning_how_to_learn
 ---
 
