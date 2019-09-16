@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "What is Object Oriented Programming (OOP)"
-date:       2019-09-16 06:03:56 +0000
+date:       2019-09-16 02:03:57 -0400
 permalink:  what_is_object_oriented_programming_oop
 ---
 
 
-In OOP, we indentify objects for our programs to use. Humans think about objects as things wih attributes and behaviours and we use objects based on those attributes and behaviours. In OOP, these things become classes, the blueprints and factories for objects. Each instance of an object contains instance variables which are the attributes of the object and object behaviours are described via methods. Take the example of a dog. A dog is a thing which makes it a class. A speciffic breed is an object of the class Dog. The attributes of a breed such as size and color can be stored as instance variables. If you want your dog class to bark, this is a behaviour which is described by the methods. 
+In OOP, we indentify objects for our programs to use. Humans think about objects as things with attributes and behaviours and we use objects based on those attributes and behaviours. In OOP, these things become classes, the blueprints and factories for objects. Each instance of an object contains instance variables which are the attributes of the object and object behaviours are described via methods. Take the example of a dog. A dog is a thing which makes it a class. A speciffic breed is an object of the class Dog. The attributes of a breed such as size and color can be stored as instance variables. If you want your dog class to bark, this is a behaviour which is described by the methods. 
 
 
 The way objects are created in Ruby is by calling a new method on a class, as in the example below:
