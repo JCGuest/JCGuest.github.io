@@ -17,6 +17,7 @@ There are several types of joins:
 * Right Join
 * Full Join
 
+Left, right and full joins are known as outer joins.
 Here are some visuals to explain the differencs between them: 
 
 
@@ -56,7 +57,7 @@ An inner join returns only the rows of the joined tables that match the query.
 ```
 SELECT *
 FROM Teachers
-INNER JOIN Students
+JOIN Students
 ON Teachers.id = Students.teacher_id;
 ```
 This will return the teacher that has an id that matches any student teacher_id:
@@ -87,7 +88,7 @@ teacher_id  |  student_id
 3           |  NULL
 ```
 
-Another feature that you may notice being used in this query is the "AS" statement. This works by essentially assigning the column to a variable to make the output cleaner and easier to use as well as allowing this new column name to be used in more complex functions.
+Another feature that you may notice being used in this query is the "AS" statement. This works by essentially assigning the column to a variable to make the output cleaner and easier to read as well as allowing this new column name to be used in more complex functions.
 
 A right join is essentially the same as a left join except it returns all the rows from the right-most colomn:
 
