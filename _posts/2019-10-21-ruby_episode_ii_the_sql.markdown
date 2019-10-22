@@ -38,7 +38,7 @@ ON first_table.column_name = second_table.column_name;```
 
 Queries like the above allow us to tie data together to be able to ask and answer more challenging questions. This join query demonstrates that the syntax is very simple yet the capabilities that arise from its use are profound. Being able to cross-reference and combine data tables was at the heart of the motivation behind the creation of SQL. 
 
-Let's look at some examples that demonstrate the differnces between the types of joins:
+Let's look at some examples that demonstrate the differences between the types of joins:
 
 Imagine we have the following tables.
 
