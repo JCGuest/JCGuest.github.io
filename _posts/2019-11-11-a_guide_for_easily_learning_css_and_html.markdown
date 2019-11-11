@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Useful HTML & CSS Developmet Tools"
+title:      "Useful HTML & CSS Development Tools"
 date:       2019-11-11 14:03:30 -0500
 permalink:  a_guide_for_easily_learning_css_and_html
 ---
