@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "A Guide For Easily Learning CSS & HTML "
-date:       2019-11-11 19:03:29 +0000
+title:      "Useful HTML & CSS Developmet Tools"
+date:       2019-11-11 14:03:30 -0500
 permalink:  a_guide_for_easily_learning_css_and_html
 ---
 
