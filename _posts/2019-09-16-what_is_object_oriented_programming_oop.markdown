@@ -81,7 +81,7 @@ hugo.name #> nil
 ```
 ```
 hugo.name = "Hugo"
-hugo.name #> Hugo
+hugo.name => Hugo
 ```
 As you can see the attr methods makes things a little easier.
 
@@ -103,8 +103,8 @@ end
 
 ```
 hugo = Dog.new("Hugo", "Boxer")
-hugo.name #> Hugo
-hugo.breed #> Boxer
+hugo.name => Hugo
+hugo.breed => Boxer
 ```
 
 Methods and classes define a new scope for variables, and outer scope variables are not carried over to the inner scope. Let’s see what this means.
@@ -123,7 +123,7 @@ end
 ```
 
 ```
-puts name #> "John"
+puts name => "John"
 ```
 
 The variable outside of the class is not the same as the variable that is inside the class. These are the very basics of Object Oriented Programming in Ruby. From here, a promising future of programming can begin.
