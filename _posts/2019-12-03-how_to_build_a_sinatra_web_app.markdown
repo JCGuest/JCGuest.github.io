@@ -102,7 +102,7 @@ require_all 'app'
 ```
 
 ### Database and Migrations
-Once your adapter, rakefile and all your gems are set up; you can start to set up your migrations and data tables. ActiveRecord gives you the powerful tool of migrations which act as version control. You create these versions with the command rake db:create_migration NAME="name of migration". This will automatically generate a 'migrate' folder in your 'db' directory where you will do things like create tables. Here is the migration I used to create my user table:
+Once your adapter, rakefile and all your gems are set up; you can start to set up your migrations and data tables. ActiveRecord gives you the powerful tool of migrations which act as version control. You create these versions with the command rake ``` db:create_migration NAME="name of migration" ```. This will automatically generate a 'migrate' folder in your 'db' directory where you will do things like create tables. Here is the migration I used to create my user table:
 
 ```
 class CreateUsers < ActiveRecord::Migration[6.0]
@@ -128,7 +128,7 @@ run ApplicationController
 ```
 
 ### Application Controller
-The application controller will inherit from Sinatra which will give it all the functionality it needs to define your routes. All other controllers will inherit form this one. If you want to enable sessions this is how it should look:
+The application controller will inherit from Sinatra which will give it all the functionality it needs to define your routes. All other controllers will inherit from this one. If you want to enable sessions this is how it should look:
 
 ```
 class ApplicationController < Sinatra::Base
