@@ -175,4 +175,4 @@ end
 ```
 
 ### Controllers, Routes and Views
-And thats it for the basic structure of a Sinatra app. At this point you are ready to build out any routes and views you will need.
+And that's it for the basic structure of a Sinatra app. At this point you are ready to build out any routes and views you will need.
