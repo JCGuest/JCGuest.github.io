@@ -99,6 +99,8 @@ ActiveRecord::Base.establish_connection(
   :database => 'db/development.sqlite'
 )
 require_all 'app'
+
+
 ```
 
 ### Database and Migrations
@@ -113,6 +115,8 @@ class CreateUsers < ActiveRecord::Migration[6.0]
     end
   end
 end
+
+
 ```
 
 ### Config.ru
@@ -125,6 +129,8 @@ use UserController
 use OrdersController
 use Rack::MethodOverride
 run ApplicationController
+
+
 ```
 
 ### Application Controller
@@ -145,9 +151,7 @@ class ApplicationController < Sinatra::Base
     "Hello, World!"
   end
 
-    end
-		
-		
+ end
 		
 		```
 		
