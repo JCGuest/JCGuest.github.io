@@ -11,6 +11,7 @@ Building any project from a blank file can seem overwhelming at first. This is g
 You don’t need to know exactly all your code before you start but it is good to have an idea of what you want the finished product to look like and how you want it to behave as well as answers to questions like “how many models am I going to have? What datatypes will I need to use?” This should be clear before you move on and get started. Mine looks like this:
 
 ```
+
     ├── Gemfile
     ├── Gemfile.lock
     ├── README.md
@@ -41,7 +42,7 @@ You don’t need to know exactly all your code before you start but it is good t
     ├── config.ru
     ├── db
     ├── public
-		```
+```
 		
 		
 Once you have your basic structure you should commit and push to GitHub. You should commit every 7-10 min of actual coding time with descriptive commit messages.
