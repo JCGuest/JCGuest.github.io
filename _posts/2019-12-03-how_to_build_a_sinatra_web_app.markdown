@@ -42,6 +42,9 @@ You don’t need to know exactly all your code before you start but it is good t
     ├── config.ru
     ├── db
     ├── public
+		
+		
+		
 ```
 		
 		
