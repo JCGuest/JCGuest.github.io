@@ -13,8 +13,9 @@ When I first decided to learn programming one of the first places I started to l
 
 ### How does a code editor make writing HTML/CSS easier and more enjoyable?
 
-If you're like me you like anything that makes programming faster and easier. Making the whole experience faster and easier is exactly the type of thing that code editors were made for. For example,  Intellisense, a fany word for code auto-completion. Itellisense can be paired with vast licraries of code snippets that can complete portions of code large and small. There are a huge number of tools that can make your writing experience, I dare say, an enjoyable one. I am particularly fond of auto-completion when writing HTML tags. For example, to begin an html document all you have to do is start to type the name of the tag, hit the 'Tab' key, and the carrots and closing tag are auto-filled for you!  Just with ```! ```  and pressing the 'Tab' key VSCode will give you this >
+If you're like me, you like anything that makes programming faster and easier. Making the whole experience faster and easier is exactly the type of thing that code editors were made for. For example,  Intellisense, a fany word for code auto-completion. Itellisense can be paired with vast licraries of code snippets that can complete portions of code large and small. There are a huge number of tools that can make your writing experience, I dare say, an enjoyable one. I am particularly fond of auto-completion when writing HTML tags. For example, to begin an html document all you have to do is start to type the name of the tag, hit the 'Tab' key, and the carrots and closing tag are auto-filled for you!  Just with ```! ```  and pressing the 'Tab' key VSCode will give you this:
 
+```
 ``` <!-- 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,10 +29,15 @@ If you're like me you like anything that makes programming faster and easier. Ma
     
 </body>
 </html> 
--->```
-as you can see; the basic structure of an html document has been built for you.
+-->
 
-On the CSS side of things it's the same story.  When typing out aproperty, you get a full list of available options. You can even choose a color from an interactive color wheel that types in the RGB values once you make your choice. Along with these examples there are so many other invaluable features of VSCode such as, an easy to find and use "Extenions" tab where you can install and use all of your extensions. There are even consoles for debugging and version control but let's now talk about Chrome Developer Tools.
+```
+
+
+
+Just like that! The basic structure of an html document has been built for you.
+
+On the CSS side of things it's the same story.  When typing out a property, you get a full list of available options. You can even choose a color from an interactive color wheel that types in the RGB values once you make your choice. Along with these examples there are so many other invaluable features of VSCode such as, an easy to find and use "Extenions" tab where you can install and use all of your extensions. There are even consoles for debugging and version control but let's now talk about Chrome Developer Tools.
 
 ### Chrome and Developer Tools
 
