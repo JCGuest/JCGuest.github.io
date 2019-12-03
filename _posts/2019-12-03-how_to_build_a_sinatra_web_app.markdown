@@ -146,6 +146,9 @@ class ApplicationController < Sinatra::Base
   end
 
     end
+		
+		
+		
 		```
 		
 ### Models Are Next
@@ -158,6 +161,8 @@ has_many :orders
 has_secure_password
 
 end
+
+
 ```
 ```
 class Order < ActiveRecord::Base
@@ -165,6 +170,8 @@ class Order < ActiveRecord::Base
 belongs_to :user
 
 end
+
+
 ```
 
 ### Controllers, Routes and Views
