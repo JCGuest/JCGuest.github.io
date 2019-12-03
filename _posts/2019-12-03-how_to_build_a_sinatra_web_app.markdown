@@ -152,11 +152,12 @@ class ApplicationController < Sinatra::Base
   end
 
  end
-		
-		```
+
+```
 		
 ### Models Are Next
 Models are ruby classes that will inherit from ActiveRecord which will give them the functionality they will need for all the associations that are very important to the app. These valuable and almost magical associations are achieved using abstractions like has_many and belongs_to. Another important ingredient here is has_secure_password which will give the class a secure password with the bcrypt gem. Here are my models:
+
 
 ```
 class User < ActiveRecord::Base
@@ -166,8 +167,8 @@ has_secure_password
 
 end
 
-
 ```
+
 ```
 class Order < ActiveRecord::Base
 
