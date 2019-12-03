@@ -5,10 +5,10 @@ date:       2019-12-03 03:08:07 -0500
 permalink:  how_to_build_a_sinatra_web_app
 ---
 
-This is a guide a on how to go from an empty canvas to a fully functional app using Sinatra and ActiveRecord. This app will be complete with the Model, View, Controller (MVC) structure and persistence of data. I am currently building an app that allows a user to sign up with a secure password and create, read, update and delete orders. I work at Whole Foods in the Meat Market and around this time of the year their are hundreds of customer orders that can be hard to keep to track of with just paper. I am building this app to one day hopefully use it myself at work to help keep track of those orders.
+This is a guide a on how to go from an empty canvas to a fully functional app using Sinatra and ActiveRecord. This app will be complete with the Model, View, Controller (MVC) structure and persistence of data. I am currently building an app that allows a user to sign up with a secure password and create, read, update and delete orders. I work at Whole Foods in the Meat Market and around this time of the year there are hundreds of customer orders that can be hard to keep to track of with just pen and paper. I am building this app to one day use it myself at work to keep track of those orders.
 
 ### So where to start?
-You don’t need to know exactly all your code before you start but it is good to have an idea of what you want the finished product to look like and how you want it to behave as well as answers to questions like “how many models am I going to have? What datatypes will I need to use?” This should be clear before you move on and get started. Mine looks like this:
+You don’t need to know exactly all your code before you start but it is good to have an idea of what you want the finished product to look like and how you want it to behave as well as answers to questions like “how many models am I going to have? What datatypes will I need to use?” This should be clear before you move on and get started. My file structure looks like this:
 
 ```
 
