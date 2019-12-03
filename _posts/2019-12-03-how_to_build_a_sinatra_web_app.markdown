@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to Build a Sinatra Web App"
-date:       2019-12-03 08:08:06 +0000
+date:       2019-12-03 03:08:07 -0500
 permalink:  how_to_build_a_sinatra_web_app
 ---
 
@@ -41,7 +41,6 @@ You don’t need to know exactly all your code before you start but it is good t
     ├── config.ru
     ├── db
     ├── public
-		
 		```
 		
 		
