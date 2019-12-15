@@ -64,7 +64,9 @@ end
 ```
 This action will respond with a view named home. Create a file called home.html.erb in the app/views/pages directory. The erb extension implies that this file will be processed by Rails in order to embed any dynamic content. Inside of this new file we will write our HTML. 
 
-``` <h1>Hello, World!</h1> ```
+```
+<h1>Hello world!</h1>
+```
 
 Now we just need to route our root request to the controller action. Open the routes.rb file in your editor. It is located in the config/routes directory. Now, add the following line which tells that the root path / will be served by our controller’s home action.
 
