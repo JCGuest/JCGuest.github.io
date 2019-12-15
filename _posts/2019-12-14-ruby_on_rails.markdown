@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ruby on Rails"
-date:       2019-12-15 00:44:09 +0000
+date:       2019-12-14 19:44:10 -0500
 permalink:  ruby_on_rails
 ---
 
@@ -74,7 +74,7 @@ Now start another server and visit the localhost address again and you will see 
 
 ![](https://4.bp.blogspot.com/-fN7Mf2u71nE/UpFE0NERslI/AAAAAAAAAdE/vVDxnUFlrFM/s640/static.png)
 
-And thats where it all starts! Hope you had as much fun as I did! 
+And thats where it all starts. Hope you had as much fun as I did! 
 
 
 
