@@ -16,15 +16,21 @@ Unlike other languages that rely on heavy configuration this is the idea that us
 ### How to spin up your first "Hello, World!" in Rails
 I thought it would be fun to end this blog with a quick demostration of how fast and easy it is to get a Hello, World! in a  Rails app. Assuming Ruby and Rails are installed lets begin with creating the new directory in the terminal. We'll call it hello_world. 
 
-``` rails new hello_world```
+```
+rails new hello_world
+```
 
 This will build a folder with the entire framework you will need to start. Inside this folder you will find various files and subfolders which actually constitute a Rails application. Next, navigate into the newly created directory.
 
-``` cd hello_world```
+```
+cd hello_world
+```
 
 Start WEBrick with the following command.
 
-``` rails s ```
+```
+rails s
+```
 
 You should see this
 
@@ -34,11 +40,7 @@ You should see this
 
 By default, the server listens to port 3000 
 
-Open your browser and visit the following address:
-
-
-```  localhost:3000 ```
-
+Open your browser and visit the address localhost:3000.
 
 You should see this
 
@@ -46,7 +48,9 @@ You should see this
 
 Before we continue it is important to understand a little bit about how Rails works. Every request to the application is served by methods (called actions) which are defined in special files called controllers. Routes that define which action of which controller will serve each request are placed in a special file called routes.rb. Lets generate our first controller from the command line. We'll call it 'pages'. You will have to close the server with 'Cmd + C'.
 
-``` rails generate controller pages```
+```
+rails generate controller pages
+```
 
 You'll see something like this
 
@@ -68,9 +72,11 @@ This action will respond with a view named home. Create a file called home.html.
 <h1>Hello world!</h1>
 ```
 
-Now we just need to route our root request to the controller action. Open the routes.rb file in your editor. It is located in the config/routes directory. Now, add the following line which tells that the root path / will be served by our controller’s home action.
+Now we just need to route our root request to the controller action. Open the routes.rb file in your editor. It is located in the config/routes directory. Now, add the following line which tells that the root path "/" will be served by our controller’s home action.
 
-``` root to: 'pages#home' ```
+```
+root to: 'pages#home'
+```
 
 Now start another server and visit the localhost address again and you will see your home view rendered in the browser!
 
