@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Speed Metal Web Development with Ruby on Rails "
-date:       2020-02-22 17:53:03 +0000
+date:       2020-02-22 12:53:04 -0500
 permalink:  speed_metal_web_development_with_ruby_on_rails
 ---
 
@@ -10,9 +10,9 @@ Ruby is a language developed with programmer happiness in mind. One way to make 
 
 #### Rails Generators
 
-I made good use generators like ` rails generate model NAME [field[:type][:index] field[:type][:index]] [options]`.
-This stubs out a new model.  You can pass the model name, either camel-cased or underscored, and an optional list of attribute pairs as arguments. Your ORM is invoked and you can even add options such as `has_secure_password` which can be coupled with the `password:digest` tag to generate a model and migration ready to go with a password and password digest field already set up for migration given that bcrypt is included in your gemfile. This is a lower level generator which is perfect for the start of a project in that it stubs out plenty of useful code without generating a lot of code that you may not use. One rule of using generators is "always use the lowest level generator that you need". An example of a  mid-level generator that I used is 
-`rails generate controller NAME [action action] [options]`.
+I made good use generators like ``` rails generate model NAME [field[:type][:index] field[:type][:index]] [options]```.
+This stubs out a new model.  You can pass the model name, either camel-cased or underscored, and an optional list of attribute pairs as arguments. Your ORM is invoked and you can even add options such as ```has_secure_password``` which can be coupled with the ```password:digest``` tag to generate a model and migration ready to go with a password and password digest field already set up for migration given that bcrypt is included in your gemfile. This is a lower level generator which is perfect for the start of a project in that it stubs out plenty of useful code without generating a lot of code that you may not use. One rule of using generators is "always use the lowest level generator that you need". An example of a  mid-level generator that I used is 
+```rails generate controller NAME [action action] [options]```.
 This stubs out a new controller and its views. The controller and action names are passed is that will correspond to routes and views that will also be generated. Generators were an invaluable tool for getting my project off the ground.
 
 #### ActiveRecord 
@@ -51,7 +51,7 @@ Note that the order table has two columns for "patron_id" and "clerk_id". These 
 
 #### DRY Code
 
-DRY stands for "Don't Repeat Yourself". Rails provides plenty of methods to use to help keep your code "dry". One of those is "partials". This is a way of rendering code from another file and setting variables in the rendered code so that it can perform different functions depending on where it has been rendered. I used this to render a form for editing an existing order or creating a new order. This method works well with FormBuilder that is included in the framework. The FormBuilder object can be thought of as serving as a proxy for the methods in the FormHelper module. This class allows you to call methods with the model object you are building the form for. It is a huge time saver and throughout this build, I learned a lot about how it automates building forms. For instance, when the form builder `form_for` is called on an object, it creates an HTML form for posting to either the `model-name/create` URL or the `model-name/model id/update` URL depending on whether the object is an instance of an existing object or a new and empty object. It does all of this while also giving you tools to explicitly express the path to post to if the need be.  As someone who loves the object oriented nature of Ruby and is not a huge fan of wriing out long HTML forms, this is a tool I use whenever possible.
+DRY stands for "Don't Repeat Yourself". Rails provides plenty of methods to use to help keep your code "dry". One of those is "partials". This is a way of rendering code from another file and setting variables in the rendered code so that it can perform different functions depending on where it has been rendered. I used this to render a form for editing an existing order or creating a new order. This method works well with FormBuilder that is included in the framework. The FormBuilder object can be thought of as serving as a proxy for the methods in the FormHelper module. This class allows you to call methods with the model object you are building the form for. It is a huge time saver and throughout this build, I learned a lot about how it automates building forms. For instance, when the form builder ```form_for``` is called on an object, it creates an HTML form for posting to either the ```model-name/create``` URL or the ```model-name/model id/update``` URL depending on whether the object is an instance of an existing object or a new and empty object. It does all of this while also giving you tools to explicitly express the path to post to if the need be.  As someone who loves the object oriented nature of Ruby and is not a huge fan of wriing out long HTML forms, this is a tool I use whenever possible.
 
 I learned a lot throughout building this application and had a lot of struggles but also a lot of fun. It's exciting that someone like me with only months of coding experience can get an app like mine up and running in a matter of days. I can only imagine what kind of things will possible after gaining more experience. 
 
