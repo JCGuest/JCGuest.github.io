@@ -10,7 +10,7 @@ Ruby is a language developed with programmer happiness in mind. One way to make 
 
 #### Rails Generators
 
-I made good use generators like ``` rails generate model NAME [field[:type][:index] field[:type][:index]] [options]```.
+I made good use generators like ```rails generate model NAME [field[:type][:index] field[:type][:index]] [options]```.
 This stubs out a new model.  You can pass the model name, either camel-cased or underscored, and an optional list of attribute pairs as arguments. Your ORM is invoked and you can even add options such as ```has_secure_password``` which can be coupled with the ```password:digest``` tag to generate a model and migration ready to go with a password and password digest field already set up for migration given that bcrypt is included in your gemfile. This is a lower level generator which is perfect for the start of a project in that it stubs out plenty of useful code without generating a lot of code that you may not use. One rule of using generators is "always use the lowest level generator that you need". An example of a  mid-level generator that I used is 
 ```rails generate controller NAME [action action] [options]```.
 This stubs out a new controller and its views. The controller and action names are passed is that will correspond to routes and views that will also be generated. Generators were an invaluable tool for getting my project off the ground.
