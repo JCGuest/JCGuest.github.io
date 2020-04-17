@@ -5,7 +5,7 @@ date:       2020-04-16 20:13:15 -0400
 permalink:  building_a_single-page_application_with_javascript_and_rails
 ---
 
-###### A single page application is an web application that requires the browser to load just a single page. The web application or website interacts with the browser by dynamically rewriting the current page with data from the web server.
+### A single page application is an web application that requires the browser to load just a single page. The web application or website interacts with the browser by dynamically rewriting the current page with data from the web server.
 
 I am currently developing a single-page application that is a game  of sorts for multiple people to play that picks the players most voted-for Yelp search result. It uses the Yelp "Fusion API" and gets Yelp results for the user, creates player names and asks the users to each vote one at a time for each result. Each result that was voted for by all players is then shown in a list of matches with information and links to the results Yelp pages.
 
